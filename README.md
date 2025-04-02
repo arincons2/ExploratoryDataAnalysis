@@ -1,18 +1,18 @@
 # Exploratory Data Analysis
 
-# ** Problem statement **
+## ** Problem statement **
 In New York City, many people use the online food delivery service, Food Hub, to order meals from their favorite restaurants, all through a single smartphone.
 
 
-# ** Objective ** 
+## ** Objective ** 
 The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience.
 
-# **Techniques/tools utilized and achievements**
+## **Techniques/tools utilized and achievements**
 ✅Exploratory Data Analysis (EDA) to answer questions that help the company to improve the business (identification of the top restaurants, etc), using Python.
 ✅Exploration of variables: univariate analysis (distributions), multivariate analysis (relationship between the variables).
 ✅Determination of the factors that affect rating and delivery time, as well as the nature of their effect.
 
-# **Overall conclusions and project impact** 
+## **Overall conclusions and project impact** 
 ☑️The rating is influenced by the type of cuisine, the day of the week, and the delivery time, but it is primarily determined by the type of cuisine and the day of the week.
 ☑️The insights into the most popular cuisine types, top restaurants, and days with the highest demand are essential for enhancing the customer experience.
 ☑️The raw data show several quality issues, primarily with the 'rating' and 'day_of_the_week' variables, which hinder the ability to gain better insights. Improving data recording would facilitate more effective analysis in the future.
