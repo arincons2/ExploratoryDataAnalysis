@@ -40,5 +40,6 @@ The data contains the different data related to a food order. The detailed data 
 ☑️Once data recording is improved, a machine learning model can be used to accurately predict the number of orders per day, helping optimize delivery times.
 
 
-##Complete script (google colab): 
+# Complete script (google colab): 
+FDS_PROJECT_LearnerNotebook_FullCode.ipynb
 
