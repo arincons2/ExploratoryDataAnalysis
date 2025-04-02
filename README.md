@@ -41,6 +41,8 @@ The data contains the different data related to a food order. The detailed data 
 
 
 # Complete script (google colab): 
-see https://github.com/arincons2
-(FDS_PROJECT_LearnerNotebook_FullCode.ipynb)
+see 
+FDS_PROJECT_LearnerNotebook_FullCode.ipynb
+
+https://github.com/arincons2
 
