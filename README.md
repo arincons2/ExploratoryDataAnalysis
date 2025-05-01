@@ -16,6 +16,7 @@ The objective is to analyze the data from online orders and gain a clear underst
 
 ## **Tools utilized**
 ✅Language: Python (Google colab)
+
 ✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn.  
 
 ## **Data Description**
