@@ -7,12 +7,16 @@ In New York City, many people use the online food delivery service, Food Hub, to
 ## **Objective** 
 The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience.
 
-## **Techniques/tools utilized and achievements**
+## **Techniques utilized**
 ✅Exploratory Data Analysis (EDA) to answer questions that help the company to improve the business (identification of the top restaurants, etc), using Python.
 
 ✅Exploration of variables: univariate analysis (distributions), multivariate analysis (relationship between the variables).
 
 ✅Determination of the factors that affect rating and delivery time, as well as the nature of their effect.
+
+## **Tools utilized**
+✅Language: Python (Google colab)
+✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn.  
 
 ## **Data Description**
 The data contains the different data related to a food order. The detailed data dictionary is given below.
