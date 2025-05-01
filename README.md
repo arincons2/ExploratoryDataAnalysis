@@ -38,7 +38,7 @@ The data contains the different data related to a food order. The detailed data 
 ## **Overall conclusions and project impact** 
 ☑️The rating is influenced by the type of cuisine, the day of the week, and the delivery time, but it is primarily determined by the type of cuisine and the day of the week.
 
-☑️The insights into the most popular cuisine types, top restaurants, and days with the highest demand are essential for enhancing the customer experience.
+☑️The insights into the most popular cuisine types, top restaurants, and days with the highest demand allow enhancing the customer experience.
 
 ☑️The raw data show several quality issues, primarily with the 'rating' and 'day_of_the_week' variables, which hinder the ability to gain better insights. Improving data recording would facilitate more effective analysis in the future.
 
