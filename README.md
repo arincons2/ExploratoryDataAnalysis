@@ -8,12 +8,15 @@ In New York City, many people use the online food delivery service, Food Hub, to
 
 
 ## **Objective** 
-The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience. This boils down to determine the factors that affect rating, count of orders and delivery time
+The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience. The main result is to determine the factors that affect rating, count of orders and delivery time.
 
 ## **Techniques utilized**
 Exploratory Data Analysis (EDA) using Python (Google collab):
+
 ✅ Exploration, cleaning and preparation of data.
+
 ✅ Univariate analysis (countplots, histograms, boxplots) and multivariate analysis (heatmap, pairplot, covariance heatmap, multivarite countplots, etc) to determine the factors that affect rating, count of orders and delivery time.
+
 ✅ Data querying, aimed at answering questions that help the company improve the business (identification of the top restaurants, etc), using aggregation operations and Python functions.
 
 ## **Tools utilized**
