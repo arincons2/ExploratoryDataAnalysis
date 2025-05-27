@@ -1,23 +1,57 @@
 # Exploratory Data Analysis (Food Hub order analysis using Python)
 
+Complete google Collab script (Python code):
+https://github.com/arincons2/ExploratoryDataAnalysis/blob/d36dbec390e0b303a6ca5689e599ba1fb80470ca/FDS_PROJECT_LearnerNotebook_FullCode.ipynb
+
 ## **Problem statement**
 In New York City, many people use the online food delivery service, Food Hub, to order meals from their favorite restaurants, all through a single smartphone.
 
 
 ## **Objective** 
-The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience.
+The objective is to analyze the data from online orders and gain a clear understanding of customer demand for different restaurants, which will help Food Hub improve its customer experience. This boils down to determine the factors that affect rating, count of orders and delivery time
 
 ## **Techniques utilized**
-✅Exploratory Data Analysis (EDA) to answer questions that help the company to improve the business (identification of the top restaurants, etc), using Python.
-
-✅Exploration of variables: univariate analysis (distributions), multivariate analysis (relationship between the variables).
-
-✅Determination of the factors that affect rating and delivery time, as well as the nature of their effect.
+Exploratory Data Analysis (EDA) using Python (Google collab):
+✅ Exploration, cleaning and preparation of data.
+✅ Univariate analysis (countplots, histograms, boxplots) and multivariate analysis (heatmap, pairplot, covariance heatmap, multivarite countplots, etc) to determine the factors that affect rating, count of orders and delivery time.
+✅ Data querying, aimed at answering questions that help the company improve the business (identification of the top restaurants, etc), using aggregation operations and Python functions.
 
 ## **Tools utilized**
-✅Language: Python (Google colab)
+✅Language: Python (Google collab)
 
 ✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn.  
+
+## **Overall conclusions** 
+☑️ The count of orders is influenced by the cuisine type, restaurant name, delivery time, the day of the week, the cost and the rating. These input factors are crucial for enhancing the customer experience.
+
+☑️ The rating depends on the cuisine type and restaurant name. 
+
+☑️ The delivery time depends on day of the week and cuisine type. 
+
+☑️ The demand (count of orders) is higher on weekends than on weekdays
+
+☑️ The count of orders is increasing with the rating. This implies that the food quality has a strong influence on the demand.
+
+☑️ The count of orders exhibits a significant decrease for delivery time higher than 30.
+
+## **Recommendations** 
+☑️ Since the count of orders exhibits a significant decrease for delivery time higher than 28 during weekdays, it is recommended to identify the corresponding restaurants or circumstances, and solve this issue. These higher delivery times occur during weekdays.
+
+☑️ It is recommended to perform marketing campaign for the restaurants with higher demand. Also, it would be convenient to identify the three restaurants with higher demand (and higher rating) for each cuisine type, and make publicity for these. This would facilitate the people to choose apropriate foods, in special to those who haven't a certain decision.
+
+☑️ It is recommended to use a more detailed rating, using numbers 3.0, 3.2, 3.4, .....4.6, 4.8, 5.0, instead of the current numbers used (3.0, 4.0, 5.0). This would lead to a better understanding of the dependence of 'rating' with respect to the different input variables.
+
+☑️ It is recommended to use a more detailed racording of the 'day of week', specifying the exact day of the week, not the current binary category (weekend/weekday). This would allow to understand the dependence of rating and count with respect to day of the week, and also it would allow to identify the days with higher delivery time and to solve it.
+
+☑️ After improving the recording of 'rating' and 'day_of_the_week' values, the EDA can be made again, leading to deeper conclusions and recommendations.
+
+
+# Complete script (google colab script, including detailed code, insights and recommendations): 
+
+https://github.com/arincons2/ExploratoryDataAnalysis/blob/d36dbec390e0b303a6ca5689e599ba1fb80470ca/FDS_PROJECT_LearnerNotebook_FullCode.ipynb
+
+FDS_PROJECT_LearnerNotebook_FullCode.ipynb
+https://github.com/arincons2
 
 ## **Data Description**
 The data contains the different data related to a food order. The detailed data dictionary is given below.
@@ -33,22 +67,4 @@ The data contains the different data related to a food order. The detailed data 
   This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
 * delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. 
   This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
-
-
-## **Overall conclusions and project impact** 
-☑️The rating is influenced by the type of cuisine, the day of the week, and the delivery time, but it is primarily determined by the type of cuisine and the day of the week.
-
-☑️The insights into the most popular cuisine types, top restaurants, and days with the highest demand allow enhancing the customer experience.
-
-☑️The raw data show several quality issues, primarily with the 'rating' and 'day_of_the_week' variables, which hinder the ability to gain better insights. Improving data recording would facilitate more effective analysis in the future.
-
-☑️Once data recording is improved, a machine learning model can be used to accurately predict the number of orders per day, helping optimize delivery times.
-
-
-# Complete script (google colab script, including detailed code, insights and recommendations): 
-
-https://github.com/arincons2/ExploratoryDataAnalysis/blob/d36dbec390e0b303a6ca5689e599ba1fb80470ca/FDS_PROJECT_LearnerNotebook_FullCode.ipynb
-
-FDS_PROJECT_LearnerNotebook_FullCode.ipynb
-https://github.com/arincons2
 
