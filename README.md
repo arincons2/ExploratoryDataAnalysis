@@ -25,6 +25,8 @@ Exploratory Data Analysis (EDA) using Python (Google collab):
 ✅ Python libraries: Numpy, Pandas, Matplotlib, Seaborn.  
 
 ## **Overall conclusions** 
+From the count plots it follows that:
+
 ☑️ The count of orders is influenced by the cuisine type, restaurant name, delivery time, the day of the week, the cost and the rating. These input factors are crucial for enhancing the customer experience.
 
 ☑️ The rating depends on the cuisine type and restaurant name. 
@@ -36,6 +38,20 @@ Exploratory Data Analysis (EDA) using Python (Google collab):
 ☑️ The count of orders is increasing with the rating. This implies that the food quality has a strong influence on the demand.
 
 ☑️ The count of orders exhibits a significant decrease for delivery time higher than 30.
+
+From the plots for rating, delivery time and cost it follows that:
+
+☑️ The dependence of rating on cuisine type is strong, but its dependence with respect to day of week, delivery time,
+food preparation time, and cost range is low. This implies that the criterion for registration of rating is straightforwardly related to food quality, and not on other variables.
+
+☑️ The delivery time depends on the day of the week.
+
+☑️ The dependence of delivery time on cuisine type and restaurant name is weak.
+
+☑️ The cost of the order depends on the cuisine type, but it does not depend on day of the week (in average).
+
+☑️ The dependence of food preparation time with cuisine type is not strong.
+
 
 ## **Recommendations** 
 ☑️ Since the count of orders exhibits a significant decrease for delivery time higher than 28 during weekdays, it is recommended to identify the corresponding restaurants or circumstances, and solve this issue. These higher delivery times occur during weekdays.
