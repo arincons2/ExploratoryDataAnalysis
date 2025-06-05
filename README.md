@@ -1,7 +1,7 @@
 # Exploratory Data Analysis (Food Hub order analysis using Python)
 
 Complete google Collab script (Python code):
-https://github.com/arincons2/ExploratoryDataAnalysis/blob/a126d187feddf29be051125d63dc15f61eb0350a/MEJORA3_FDS_PROJECT_FullCode.ipynb
+https://github.com/arincons2/ExploratoryDataAnalysis/blob/7352fedaae0187e353012ee512a4db3a1fb93a23/FDS_PROJECT_FullCode_V3c.ipynb
 
 ## **Problem statement**
 In New York City, many people use the online food delivery service, Food Hub, to order meals from their favorite restaurants, all through a single smartphone.
@@ -67,7 +67,7 @@ food preparation time, and cost range is low. This implies that the criterion fo
 
 # Complete script (google colab script, including detailed code, insights and recommendations): 
 
-https://github.com/arincons2/ExploratoryDataAnalysis/blob/a126d187feddf29be051125d63dc15f61eb0350a/MEJORA3_FDS_PROJECT_FullCode.ipynb
+https://github.com/arincons2/ExploratoryDataAnalysis/blob/7352fedaae0187e353012ee512a4db3a1fb93a23/FDS_PROJECT_FullCode_V3c.ipynb
 
 https://github.com/arincons2
 
